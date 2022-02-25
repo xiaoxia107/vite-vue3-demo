@@ -1,5 +1,5 @@
 <template>
-  <div class="preview">
+  <div>
     okk
   </div>
 </template>
@@ -13,23 +13,4 @@ export default {
 
 
 <style lang="less" scoped>
-.preview{
-  position: relative;
-  width: 100%;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  &-item{
-    position: absolute;
-    display: inline-block;
-    touch-action: none;
-    overflow: hidden;
-    &-content{
-      width: 100%;
-      height: 100%;
-      position: relative;
-    }
-  }
-}
 </style>
